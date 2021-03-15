@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 
-export default function useBookSearch(pageNumber) {
+export default function useCryptoHook(pageNumber) {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
   const [crypto, setCrypto] = useState([]);
